@@ -1,5 +1,10 @@
 $crocoFontNormal: Proxima nova
 $corocSans: "Crocosans caps", sans-serif
+$druk: "Druk"
+$neueCroco: "Ubuntu mkh"
+$Ttsupermolotneue: "Ttsupermolotneue"
+$neueCrocoCaps: "Ubuntu"
+$neueCrocoCapsMedium: "Ubuntu Medium"
 
 .div-block-19221
     border-radius: 25px
@@ -7,7 +12,7 @@ $corocSans: "Crocosans caps", sans-serif
     font-style: normal
 
 .body-52
-    background-color: #110080
+    background-color: #151f2b
     animation-delay: 2s
     animation: lightOff infinite linear
     background-image: url("../images/wheel/bg-off.jpg")
@@ -20,7 +25,9 @@ $corocSans: "Crocosans caps", sans-serif
     0%
 
 .section-bb
-    margin-top: 691px
+    margin-top: 500px
+    width: 100%
+    max-width: 1000px
 
 .tm
     display: none
@@ -92,22 +99,23 @@ $corocSans: "Crocosans caps", sans-serif
     margin-right: 20px
 
 .acording-first
-    max-height: 34px
+    max-height: 45px
     width: 100%
 
 .f-a-i
-    width: 98% !important
+    width: 96% !important
     margin-left: auto
     margin-right: auto
 
 .accordion_item_content-t.tr
-    background-color: transparent
+    background-color: #0e1620
+    border-radius: 0 0 15px 15px
 
 .accordion_item_trigger-t
-    background-color: #0dad00
+    background-color: #20344e
 
 .accordion_item_trigger-t:hover
-    background-color: rgba(13, 173, 0, 0.8)
+    background-color: rgba(32, 52, 78, 0.7)
 
 .accordion_item_content-t
     border-radius: 4px
@@ -123,7 +131,7 @@ $corocSans: "Crocosans caps", sans-serif
     font-weight: normal
     font-style: normal
     font-family: "Crocosanscaps", sans-serif
-    font-size: 27px
+    font-size: 23px
 
 .accordion_item_trigger-t
     justify-content: space-between
@@ -148,7 +156,7 @@ $corocSans: "Crocosans caps", sans-serif
 
 .text-span-161
     color: #ffffff
-    font-size: 50px
+    font-size: 38px
 
 .rotateThatBitch
     transform: rotate(180deg)
@@ -651,7 +659,7 @@ button.owl-next
 
 @media screen and (max-width: 767px)
     .body-52
-        background-color: #3303a1
+        background-color: #151f2b
         background-image: url(../images/wheel/bg-mob.jpg)
         background-position: 50% 0%
         background-size: 898px
@@ -750,20 +758,23 @@ button.owl-next
         min-height: 80px
 
 .register-container
-    min-height: 78px
-    max-width: 810px
+    min-height: 110px
+    max-width: 953px
     width: 100%
     display: flex
     background-color: rgba(21, 35, 64, 0.8)
     align-items: center
     justify-content: space-around
+    border-radius: 30px
 
 .register-container span
-    font-size: 15px
-    width: 80%
+    font-size: 20px
+    width: 93%
     display: flex
     justify-content: center
-    font-family: Ubuntu, sans-serif
+    text-align: left
+    margin-left: 20px
+    font-weight: bold
 
 .auth
     max-width: 190px
@@ -792,10 +803,10 @@ button.owl-next
 
 .button-container
     display: flex
-    justify-content: space-around
     width: 100%
     justify-content: space-around
-    margin-right: 5px
+    max-width: 390px
+    margin-right: 15px
 
 @media screen and (max-width:800px)
     .history-container
@@ -808,6 +819,7 @@ button.owl-next
         justify-content: center
         width: 90%
         margin-bottom: 15px
+        margin-right: 0
 
     .register-container
         min-height: 78px
@@ -820,7 +832,9 @@ button.owl-next
         margin-top: 15px
         margin-bottom: 10px
         font-size: 19px
-        width: 100%
+        width: 95%
+        text-align: center
+        margin-left: 0
 
     .login-butt
         margin-left: 1%
